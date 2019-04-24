@@ -1,0 +1,1 @@
+javascript:(function(){ var key = prompt('Enter your cookie name. Blank will result in "qa":'); var value = prompt('Enter your cookie value. Blank will result in "wf_test":'); if (key === null || key === '' || !key.length) { key = 'qa'; } if (value === null || value === '' || !value.length) { value = 'wf_test'; } document.cookie=key + '=' + value; })();
